@@ -174,9 +174,24 @@ figcaption {
 }   
 
 #contact {
+    height: 200px;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
 
+#contact h2 {
+    margin: 1% auto;
+}
+
+#contact h5 {
+    margin: 2.9% auto;
 }
 
 footer {
-
+    padding: 20px;
+    display: flex;
+    justify-content: left;
 }
